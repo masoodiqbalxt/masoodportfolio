@@ -276,7 +276,7 @@ export default function Home() {
               className="md:col-span-8 lg:col-span-7 bento-item group p-0 relative aspect-[14/9] md:aspect-auto md:min-h-[650px] shadow-2xl"
             >
               <Image
-                src="minimal_network_node_1773338545985.png"
+                src={process.env.NODE_ENV === 'production' ? "/masoodportfolio/minimal_network_node_1773338545985.png" : "/minimal_network_node_1773338545985.png"}
                 alt="Infrastructure"
                 fill
                 priority
