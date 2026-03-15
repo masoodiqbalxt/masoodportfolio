@@ -16,7 +16,7 @@
   --selection-bg: rgba(56, 189, 248, 0.2);
   --noise-opacity: 0.03;
   --header-bg: rgba(255, 255, 255, 0.9);
-  --bg-image: url('/bg-light.png');
+  --bg-image: url('bg-light.png');
 }
 
 .dark {
@@ -29,7 +29,7 @@
   --selection-bg: rgba(56, 189, 248, 0.4);
   --noise-opacity: 0.04;
   --header-bg: rgba(5, 5, 5, 0.9);
-  --bg-image: url('/bg-dark.png');
+  --bg-image: url('bg-dark.png');
 }
 
 @layer base {
